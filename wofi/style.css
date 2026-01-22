@@ -1,0 +1,39 @@
+* {
+	border-radius: 20px;
+	border: none;
+}
+
+window {
+	font-size: 32px;
+	background-color: rgba(49, 50, 68, 0.95);
+	color: white;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.95);
+}
+
+#entry {
+	padding: 0.25em;
+}
+
+#entry:selected {
+	/* background-color: #bbccdd; */
+	background: linear-gradient(90deg, #bbccdd, #dd77ff);
+}
+
+#text:selected {
+	color: #333333;
+}
+
+#input {
+	background-color: rgba(50, 50, 50, 0.5);
+	color: white;
+	padding: 0.25em;
+}
+
+#input > image.left {
+    -gtk-icon-transform:scaleX(0);
+}
+
+image {
+	margin-left: .25em;
+	margin-right: .25em;
+}
