@@ -162,7 +162,6 @@
     libnotify
     nvtopPackages.nvidia
     nvtopPackages.intel
-    comma
   ];
 
   fonts.packages =

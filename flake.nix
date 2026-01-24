@@ -5,6 +5,8 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
     aagl.url = "github:ezKEa/aagl-gtk-on-nix";
+    nix-index-database.url = "github:nix-community/nix-index-database";
+    nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
     aagl.inputs.nixpkgs.follows = "nixpkgs";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
@@ -13,6 +15,7 @@
       nixpkgs,
       home-manager,
       aagl,
+      nix-index-database,
       ...
     }:
     {
@@ -38,6 +41,8 @@
             # programs.wavey-launcher.enable = true;
             programs.sleepy-launcher.enable = true;
           }
+          nix-index-database.nixosModules.default
+          { programs.nix-index-database.comma.enable = true; }
           ./hardware-configuration.nix
         ];
       };
