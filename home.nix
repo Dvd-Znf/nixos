@@ -117,6 +117,9 @@
       enable = true;
       settings = lib.importTOML ./btop/btop.conf;
     };
+    obsidian = {
+      enable = true;
+    };
   };
 
   # This value determines the Home Manager release that your configuration is
