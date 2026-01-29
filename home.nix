@@ -36,14 +36,6 @@
     };
   };
 
-  # qt = {
-  #   enable = true;
-  #   style = {
-  #     name = "catppuccin-mocha-mauve";
-  #     package = pkgs.catppuccin-qt5ct;
-  #   };
-  # };
-
   services = {
     dunst = {
       enable = true;
