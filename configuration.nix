@@ -16,20 +16,28 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  boot.loader = {
-    timeout = 10;
-    efi = {
-      efiSysMountPoint = "/boot";
-    };
-
-    grub = {
+  boot = {
+    plymouth = {
       enable = true;
-      efiSupport = true;
-      efiInstallAsRemovable = true;
-      devices = [ "nodev" ];
-      useOSProber = false;
+      theme = "blahaj";
+      themePackages = with pkgs; [ plymouth-blahaj-theme ];
     };
 
+    loader = {
+      timeout = 10;
+      efi = {
+        efiSysMountPoint = "/boot";
+      };
+
+      grub = {
+        enable = true;
+        efiSupport = true;
+        efiInstallAsRemovable = true;
+        devices = [ "nodev" ];
+        useOSProber = false;
+      };
+
+    };
   };
 
   fileSystems."/home/david/homevol" = {
