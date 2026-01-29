@@ -10,6 +10,8 @@
   imports = [ ./david.nix ];
 
   nix = {
+    optimise.automatic = true;
+
     gc = {
       automatic = true;
       dates = "weekly";
