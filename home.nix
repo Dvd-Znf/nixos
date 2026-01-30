@@ -112,6 +112,11 @@
     obsidian = {
       enable = true;
     };
+    direnv = {
+      enable = true;
+      enableBashIntegration = true;
+      nix-direnv.enable = true;
+    };
   };
 
   # This value determines the Home Manager release that your configuration is
