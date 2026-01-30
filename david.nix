@@ -17,6 +17,7 @@
       mate.engrampa
       unzip
       nixpkgs-review
+      devenv
     ];
   };
 
