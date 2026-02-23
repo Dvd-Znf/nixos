@@ -18,6 +18,7 @@
       unzip
       nixpkgs-review
       devenv
+      tor-browser
     ];
   };
 
