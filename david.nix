@@ -14,7 +14,7 @@
       cava
       mousepad
       wofi-emoji
-      mate.engrampa
+      engrampa
       unzip
       nixpkgs-review
       devenv
