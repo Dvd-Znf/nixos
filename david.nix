@@ -35,7 +35,6 @@
     ssh = "kitten ssh";
     c = "vim /etc/nixos/configuration.nix";
     cc = "sudo nixos-rebuild switch --flake '/etc/nixos/#laptop'";
-    ccu = "sudo nixos-rebuild switch --upgrade";
   };
 
   programs.hyprland.enable = true;
