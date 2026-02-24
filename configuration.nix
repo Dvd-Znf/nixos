@@ -123,20 +123,27 @@
   services.blueman.enable = true;
   services.pulseaudio.enable = true;
   nixpkgs.config.pulseaudio = true;
-  services.displayManager.ly.enable = true;
-  services.displayManager.ly.settings = {
-    animation = "colormix";
-    asterisk = "0x2022";
-    bigclock = "en";
-    box_title = null;
-    brightness_down_key = null;
-    brightness_up_key = null;
-    clear_password = false;
-    clock = null;
-    colormix_col1 = "0x00808080";
-    colormix_col2 = "0x20000000";
-    colormix_col3 = "0x00FFFFFF";
-    initial_info_text = "balls";
+  services.displayManager.ly = {
+    enable = false;
+    settings = {
+      animation = "colormix";
+      asterisk = "0x2022";
+      bigclock = "en";
+      box_title = null;
+      brightness_down_key = null;
+      brightness_up_key = null;
+      clear_password = false;
+      clock = null;
+      colormix_col1 = "0x00808080";
+      colormix_col2 = "0x20000000";
+      colormix_col3 = "0x00FFFFFF";
+      initial_info_text = "balls";
+    };
+  };
+  services.displayManager.sddm = {
+    enable = true;
+    wayland.enable = true;
+    theme = "catppuccin-mocha-mauve";
   };
 
   programs.firefox.enable = true;
@@ -188,6 +195,7 @@
     libnotify
     nvtopPackages.nvidia
     nvtopPackages.intel
+    catppuccin-sddm
   ];
 
   fonts.packages =
