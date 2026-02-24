@@ -51,6 +51,9 @@
       "x-scheme-handler/https" = "firefox.desktop";
       "x-scheme-handler/about" = "firefox.desktop";
       "x-scheme-handler/unknown" = "firefox.desktop";
+      "image/png" = "viewnior.desktop";
+      "image/jpeg" = "viewnior.desktop";
+      "image/gif" = "viewnior.desktop";
     };
   };
 
