@@ -12,7 +12,7 @@
       tree
       nixfmt
       cava
-      mousepad
+      gnome-text-editor
       wofi-emoji
       engrampa
       unzip
