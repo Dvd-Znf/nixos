@@ -141,10 +141,11 @@
     };
   };
   services.displayManager.sddm = {
-    enable = true;
+    enable = false;
     wayland.enable = true;
     theme = "catppuccin-mocha-mauve";
   };
+  services.displayManager.gdm.enable = true;
 
   programs.firefox.enable = true;
   programs.thunderbird.enable = true;
