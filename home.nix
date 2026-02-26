@@ -38,7 +38,7 @@
 
   services = {
     dunst = {
-      enable = true;
+      enable = false;
       settings = lib.importTOML ./dunst/config.toml;
     };
   };

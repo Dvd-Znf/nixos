@@ -197,6 +197,7 @@
     nvtopPackages.nvidia
     nvtopPackages.intel
     catppuccin-sddm
+    swaynotificationcenter
   ];
 
   fonts.packages =
