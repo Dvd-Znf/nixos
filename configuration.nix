@@ -150,9 +150,9 @@
   };
   services.displayManager.gdm.enable = true;
 
-  virtualisation.libvirtd.enable = true;
-  programs.virt-manager.enable = true;
-  virtualisation.spiceUSBRedirection.enable = true;
+  virtualisation.libvirtd.enable = false;
+  programs.virt-manager.enable = false;
+  virtualisation.spiceUSBRedirection.enable = false;
 
   programs.firefox.enable = true;
   programs.thunderbird.enable = true;
