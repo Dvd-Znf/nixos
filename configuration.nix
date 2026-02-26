@@ -65,6 +65,7 @@
 
   networking.hostName = "Asus-Tuf";
   networking.networkmanager.enable = true;
+  networking.firewall.trustedInterfaces = [ "virbr0" ];
   time.timeZone = "Europe/Amsterdam";
   i18n.defaultLocale = "en_US.UTF-8";
 
@@ -147,6 +148,9 @@
   };
   services.displayManager.gdm.enable = true;
 
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+
   programs.firefox.enable = true;
   programs.thunderbird.enable = true;
   programs.waybar.enable = true;
@@ -198,6 +202,7 @@
     nvtopPackages.intel
     catppuccin-sddm
     swaynotificationcenter
+    dnsmasq
   ];
 
   fonts.packages =
