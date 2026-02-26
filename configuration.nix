@@ -117,6 +117,8 @@
     nvidiaBusId = "PCI:1:0:0";
   };
 
+  hardware.xone.enable = true;
+
   services.openssh.enable = true;
   services.pipewire.enable = false;
   services.libinput.enable = true;
