@@ -26,7 +26,7 @@
   fade-in = 1;
 
   # Effect for background
-  effect-blur = "5 x2";
+  effect-blur = "5x2";
   # effect-greyscale
   # effect-pixelate=5
 
