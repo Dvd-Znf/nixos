@@ -158,13 +158,13 @@
   services.displayManager.gdm.enable = false;
 
   # https://discourse.nixos.org/t/smooth-transition-with-plymouth-sddm-kde/4646
-  systemd.services."display-manager" = {
-    conflicts = [ "plymouth-quit.service" ];
-    preStart = "${pkgs.plymouth}/bin/plymouth deactivate";
-    script = "/run/current-system/sw/bin/sddm";
-    postStart = "/bin/sh -c 'sleep 5 && ${pkgs.plymouth}/bin/plymouth quit --retain-splash'";
-    enable = true;
-  };
+  # systemd.services."display-manager" = {
+  #   conflicts = [ "plymouth-quit.service" ];
+  #   preStart = "${pkgs.plymouth}/bin/plymouth deactivate";
+  #   script = "/run/current-system/sw/bin/sddm";
+  #   postStart = "/bin/sh -c 'sleep 5 && ${pkgs.plymouth}/bin/plymouth quit --retain-splash'";
+  #   enable = true;
+  # };
 
   virtualisation.libvirtd.enable = false;
   programs.virt-manager.enable = false;
