@@ -54,6 +54,7 @@
       "image/png" = "viewnior.desktop";
       "image/jpeg" = "viewnior.desktop";
       "image/gif" = "viewnior.desktop";
+      "application/pdf" = "firefox.desktop";
     };
   };
 
