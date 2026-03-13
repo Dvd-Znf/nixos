@@ -222,6 +222,7 @@
     catppuccin-sddm
     swaynotificationcenter
     dnsmasq
+    python3
   ];
 
   fonts.packages =
