@@ -184,6 +184,7 @@
   ];
   services.gnome.gnome-keyring.enable = true;
   security.pam.services.hyprland.enableGnomeKeyring = true;
+  programs.niri.enable = true;
 
   # List packages installed in system profile.
   environment.systemPackages = with pkgs; [

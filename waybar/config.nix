@@ -4,9 +4,8 @@
     height = 30;
     spacing = 0;
     modules-left = [
-      "hyprland/workspaces"
-      "hyprland/submap"
-      "hyprland/window"
+      "niri/workspaces"
+      "niri/window"
     ];
     # "modules-center": ["hyprland/window"],
     modules-right = [
