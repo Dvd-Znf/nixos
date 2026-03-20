@@ -224,6 +224,7 @@
     swaynotificationcenter
     dnsmasq
     python3
+    xwayland-satellite
   ];
 
   fonts.packages =
