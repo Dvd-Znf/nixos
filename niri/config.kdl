@@ -383,6 +383,9 @@ binds {
     Mod+Shift+K { spawn "keepassxc"; }
     Mod+R { spawn "thunar"; }
     Mod+Shift+R { spawn "thunderbird"; }
+    Super+E { spawn "wofi-emoji"; }
+    Mod+Shift+D { spawn "vesktop"; }
+    Mod+Shift+J { spawn "steam"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
