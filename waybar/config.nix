@@ -19,6 +19,13 @@
       "clock"
       "tray"
     ];
+    "niri/workspaces" = {
+      format = "{icon}";
+      format-icons = {
+        active = "";
+        default = "○";
+      };
+    };
     # Modules configuration
     "hyprland/workspaces" = {
       disable-scroll = true;
