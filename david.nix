@@ -40,7 +40,7 @@
     cc = "sudo nixos-rebuild switch --flake '/etc/nixos/#laptop'";
   };
 
-  programs.hyprland.enable = false;
+  programs.hyprland.enable = true;
   # environment.sessionVariables = {
   # HYPR_PLUGIN_DIR = pkgs.symlinkJoin {
   # name = "hyprland-plugins";
