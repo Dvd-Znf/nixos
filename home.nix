@@ -37,13 +37,6 @@
     };
   };
 
-  services = {
-    dunst = {
-      enable = false;
-      settings = lib.importTOML ./dunst/config.toml;
-    };
-  };
-
   xdg.mimeApps = {
     enable = true;
     defaultApplications = {
