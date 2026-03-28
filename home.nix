@@ -123,7 +123,7 @@
     };
     btop = {
       enable = true;
-      settings = lib.importTOML ./btop/btop.conf;
+      settings = import ./btop/btop.nix;
     };
     obsidian = {
       enable = true;
