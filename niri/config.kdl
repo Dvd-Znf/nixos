@@ -384,7 +384,7 @@ binds {
     Mod+Shift+P hotkey-overlay-title="clipboard owo" { spawn-sh "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
     Mod+Alt+semicolon hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
     Mod+E hotkey-overlay-title="firefops" { spawn "firefox"; }
-    Mod+Shift+E { spawn "firefox --private-window"; }
+    Mod+Shift+E { spawn-sh "firefox --private-window"; }
     Mod+O { spawn "gnome-text-editor"; }
     Mod+Shift+O { spawn "codium"; }
     Mod+Shift+K { spawn "keepassxc"; }
