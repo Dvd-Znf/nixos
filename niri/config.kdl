@@ -280,7 +280,7 @@ layout {
 // See the binds section below for more spawn examples.
 
 // spawn-at-startup "waybar"
-spawn-at-startup "swww-daemon"
+spawn-at-startup "awww-daemon"
 spawn-at-startup "blueman-applet"
 spawn-at-startup "nm-applet"
 spawn-at-startup "swaync"

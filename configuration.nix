@@ -193,7 +193,7 @@
     curl
     killall
     btop
-    swww
+    awww
     wl-clip-persist
     wl-clipboard
     grim
