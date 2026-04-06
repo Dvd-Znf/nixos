@@ -21,7 +21,7 @@
   };
   xdg.configFile."niri/config.kdl".source = ./niri/config.kdl;
 
-  gtk = {
+  gtk = rec {
     enable = true;
     theme = {
       name = "catppuccin-macchiato-pink-compact";
@@ -35,6 +35,7 @@
       package = pkgs.candy-icons;
       name = "candy-icons";
     };
+    gtk4.theme = theme;
   };
 
   xdg.mimeApps = {
