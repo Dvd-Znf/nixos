@@ -7,7 +7,6 @@
       "niri/workspaces"
       "niri/window"
     ];
-    # "modules-center": ["hyprland/window"],
     modules-right = [
       "pulseaudio"
       "cava"
@@ -27,27 +26,6 @@
       };
     };
     # Modules configuration
-    "hyprland/workspaces" = {
-      disable-scroll = true;
-      active-only = false;
-      all-outputs = true;
-      # persistent_workspaces = {
-      # 1 = [ ];
-      # 2 = [ ];
-      # 3 = [ ];
-      # 4 = [ ];
-      # 5 = [ ];
-      # 6 = [ ];
-      # 7 = [ ];
-      # 8 = [ ];
-      # 9 = [ ];
-      # };
-      warp-on-scroll = false;
-      show-special = true;
-    };
-    "hyprland/submap" = {
-      format = "<span style=\"italic\">{}</span>";
-    };
     tray = {
       spacing = 10;
     };
