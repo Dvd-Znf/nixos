@@ -38,7 +38,7 @@
     la = "ls -a";
     ssh = "kitten ssh";
     c = "vim /etc/nixos/configuration.nix";
-    cc = "sudo nixos-rebuild switch --flake '/etc/nixos/#laptop'";
+    cc = "sudo nixos-rebuild switch --flake './#laptop'";
   };
 
   programs.hyprland.enable = true;
