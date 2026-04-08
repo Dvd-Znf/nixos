@@ -22,6 +22,7 @@
       nixpkgs-review
       devenv
       tor-browser
+      heroic
     ];
   };
 
