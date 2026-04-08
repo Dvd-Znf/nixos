@@ -27,6 +27,8 @@
       extra-substituters = https://kwanix.cachix.org
       extra-trusted-public-keys = kwanix.cachix.org-1:HhHwGXxynHmP16OJtsXjB1yTq6EuPoIjUlnXPB6cuNQ=
     '';
+
+    package = pkgs.lixPackageSets.stable.lix;
   };
 
   nixpkgs.config.allowUnfree = true;
