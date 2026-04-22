@@ -23,6 +23,7 @@
       devenv
       tor-browser
       heroic
+      jetbrains.idea
     ];
   };
 
