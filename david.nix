@@ -24,6 +24,8 @@
       tor-browser
       heroic
       jetbrains.idea
+      jdk21
+      antlr
     ];
   };
 
