@@ -358,8 +358,8 @@ window-rule {
 
 recent-windows {
     binds {
-        Alt+grave       { next-window; }
-        Alt+Shift+grave { previous-window; }
+        Mod+grave       { next-window; }
+        Mod+Shift+grave { previous-window; }
     }
 }
 
@@ -382,8 +382,8 @@ binds {
     Mod+Shift+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+P hotkey-overlay-title="Run an Application: wofi" { spawn "wofi"; }
     Mod+Shift+P hotkey-overlay-title="clipboard owo" { spawn-sh "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
-    Alt+semicolon hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
-    Alt+Shift+semicolon hotkey-overlay-title="Notifications: swaync" { spawn-sh "swaync-client -t"; }
+    Mod+semicolon hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Mod+Shift+semicolon hotkey-overlay-title="Notifications: swaync" { spawn-sh "swaync-client -t"; }
     Mod+E hotkey-overlay-title="firefops" { spawn "firefox"; }
     Mod+Shift+E { spawn-sh "firefox --private-window"; }
     Mod+O { spawn "gnome-text-editor"; }
@@ -424,7 +424,7 @@ binds {
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
     // You can also move the mouse into the top-left hot corner,
     // or do a four-finger swipe up on a touchpad.
-    Alt+Tab     repeat=false { toggle-overview; }
+    Mod+Tab     repeat=false { toggle-overview; }
 
     Mod+Shift+C repeat=false { close-window; }
 
