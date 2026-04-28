@@ -53,6 +53,12 @@
     };
   };
 
+  services = {
+    swaync = {
+      enable = true;
+      style = ./swaync/catppuccin-mocha.css;
+    };
+  };
   programs = {
     bash = {
       enable = true;
