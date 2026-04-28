@@ -58,6 +58,9 @@
       };
 
     };
+    kernelModules = [
+      "ntsync"
+    ];
   };
 
   fileSystems."/home/david/homevol" = {
