@@ -383,6 +383,7 @@ binds {
     Mod+P hotkey-overlay-title="Run an Application: wofi" { spawn "wofi"; }
     Mod+Shift+P hotkey-overlay-title="clipboard owo" { spawn-sh "cliphist list | wofi --dmenu | cliphist decode | wl-copy"; }
     Mod+Alt+semicolon hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    Alt+Shift+semicolon hotkey-overlay-title="Notifications: swaync" { spawn-sh "swaync-client -t"; }
     Mod+E hotkey-overlay-title="firefops" { spawn "firefox"; }
     Mod+Shift+E { spawn-sh "firefox --private-window"; }
     Mod+O { spawn "gnome-text-editor"; }
