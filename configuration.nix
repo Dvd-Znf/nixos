@@ -213,7 +213,7 @@
     git
     adwaita-icon-theme
     viewnior
-    mpv
+    mpv-unwrapped
     pavucontrol
     hyprpolkitagent
     prismlauncher
