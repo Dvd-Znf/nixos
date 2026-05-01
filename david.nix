@@ -11,22 +11,6 @@
       "wheel"
       "libvirtd"
     ];
-    packages = with pkgs; [
-      tree
-      nixfmt
-      cava
-      gnome-text-editor
-      wofi-emoji
-      engrampa
-      unzip
-      nixpkgs-review
-      devenv
-      tor-browser
-      heroic
-      jetbrains.idea
-      jdk21
-      antlr
-    ];
   };
 
   users.extraUsers.david.extraGroups = [ "audio" ];

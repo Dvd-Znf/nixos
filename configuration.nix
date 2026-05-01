@@ -231,6 +231,20 @@
     python3
     xwayland-satellite
     lm_sensors
+    tree
+    nixfmt
+    cava
+    gnome-text-editor
+    wofi-emoji
+    engrampa
+    unzip
+    nixpkgs-review
+    devenv
+    tor-browser
+    heroic
+    jetbrains.idea
+    jdk21
+    antlr
   ];
 
   fonts.packages =
