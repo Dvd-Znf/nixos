@@ -230,6 +230,7 @@
     dnsmasq
     python3
     xwayland-satellite
+    lm_sensors
   ];
 
   fonts.packages =
