@@ -39,7 +39,7 @@
             # programs.honkers-railway-launcher.enable = true;
             # programs.honkers-launcher.enable = true;
             # programs.wavey-launcher.enable = true;
-            programs.sleepy-launcher.enable = true;
+            # programs.sleepy-launcher.enable = true;
           }
           nix-index-database.nixosModules.default
           { programs.nix-index-database.comma.enable = true; }
