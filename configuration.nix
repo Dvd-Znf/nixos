@@ -245,6 +245,10 @@
     jetbrains.idea
     jdk21
     antlr
+    (haskellPackages.ghcWithPackages (pkgs: [
+      pkgs.haskell-language-server
+      pkgs.cabal-install
+    ]))
   ];
 
   fonts.packages =
