@@ -249,6 +249,7 @@
       pkgs.haskell-language-server
       pkgs.cabal-install
     ]))
+    swi-prolog
   ];
 
   fonts.packages =
