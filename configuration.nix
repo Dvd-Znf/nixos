@@ -250,6 +250,7 @@
       pkgs.cabal-install
     ]))
     swi-prolog
+    sshfs
   ];
 
   fonts.packages =
