@@ -42,6 +42,7 @@
       format = "{}% ";
     };
     temperature = {
+      hwmon-path = "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input";
       critical-threshold = 80;
       format = "{temperatureC}°C {icon}";
       format-icons = [
