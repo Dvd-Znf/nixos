@@ -27,6 +27,4 @@
     c = "vim /etc/nixos/configuration.nix";
     cc = "sudo nixos-rebuild switch --flake './#laptop'";
   };
-
-  programs.hyprland.enable = false;
 }
