@@ -1,10 +1,5 @@
 { pkgs, lib, ... }:
 {
-  wayland.windowManager.hyprland = {
-    enable = true;
-    extraConfig = (builtins.readFile ./hyprland/hyprland.conf);
-  };
-
   xdg.desktopEntries = {
     minecraftuwu = {
       name = "Minecraft :3 (1.21.10)";
@@ -20,6 +15,23 @@
     };
   };
   xdg.configFile."niri/config.kdl".source = ./niri/config.kdl;
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-gtk
+    ];
+    config = {
+      common = {
+        default = [ "gtk" ];
+      };
+    };
+  };
+  dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      color-scheme = "prefer-dark";
+      gtk-theme = "catppuccin-macchiato-pink-compact";
+    };
+  };
 
   gtk = rec {
     enable = true;
