@@ -24,7 +24,6 @@
     ll = "ls -la";
     la = "ls -a";
     ssh = "kitten ssh";
-    c = "vim /etc/nixos/configuration.nix";
-    cc = "sudo nixos-rebuild switch --flake './#laptop'";
+    c = "sudo nixos-rebuild switch --flake './#laptop'";
   };
 }
