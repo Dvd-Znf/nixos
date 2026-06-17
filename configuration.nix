@@ -248,6 +248,7 @@
     (haskellPackages.ghcWithPackages (pkgs: [
       pkgs.haskell-language-server
       pkgs.cabal-install
+      pkgs.stack
     ]))
     swi-prolog
     sshfs
