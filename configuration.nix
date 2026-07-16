@@ -71,7 +71,7 @@
   networking.hostName = "Asus-Tuf";
   networking.networkmanager.enable = true;
   networking.firewall.trustedInterfaces = [ "virbr0" ];
-  time.timeZone = "Europe/Amsterdam";
+  time.timeZone = "Europe/Bucharest";
   i18n.defaultLocale = "en_US.UTF-8";
 
   hardware.graphics = {
