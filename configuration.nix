@@ -242,9 +242,9 @@
     devenv
     tor-browser
     heroic
-    jetbrains.idea
-    jdk21
-    antlr
+    # jetbrains.idea
+    # jdk21
+    # antlr
     (haskellPackages.ghcWithPackages (pkgs: [
       pkgs.haskell-language-server
       pkgs.cabal-install
