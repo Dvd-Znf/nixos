@@ -25,6 +25,7 @@
     la = "ls -a";
     ssh = "kitten ssh";
     c = "sudo nixos-rebuild switch --flake './#laptop'";
+    cu = "sudo nix flake update";
     ",," = "nix-shell -p ";
   };
 }
