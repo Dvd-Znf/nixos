@@ -5,7 +5,7 @@
   ...
 }:
 {
-  users.users.david = {
+  users.users.color = {
     isNormalUser = true;
     extraGroups = [
       "wheel"
@@ -13,7 +13,7 @@
     ];
   };
 
-  users.extraUsers.david.extraGroups = [ "audio" ];
+  users.extraUsers.color.extraGroups = [ "audio" ];
 
   programs.bash.promptInit = ''
     PS1='\[\033[01;94m\][\u@\h\[\033[01;37m\] \W\[\033[01;94m\]]\$\[\033[00m\] '

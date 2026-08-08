@@ -4,7 +4,7 @@
     minecraftuwu = {
       name = "Minecraft :3 (1.21.10)";
       exec = "${pkgs.prismlauncher}/bin/prismlauncher --launch 1.21.10";
-      icon = "/home/david/.local/share/PrismLauncher/instances/1.21.10/icon.png";
+      icon = "/home/color/.local/share/PrismLauncher/instances/1.21.10/icon.png";
       terminal = false;
       categories = [
         "Game"

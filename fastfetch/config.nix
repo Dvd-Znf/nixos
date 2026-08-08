@@ -32,7 +32,7 @@
     "colors"
   ];
   logo = {
-    source = "/home/david/Pictures/Stolen/stickerbomb.jpg";
+    source = "/home/color/Pictures/Stolen/stickerbomb.jpg";
     width = 40;
   };
   display = {

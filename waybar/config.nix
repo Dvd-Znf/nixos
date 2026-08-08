@@ -99,7 +99,7 @@
       on-click = "pavucontrol";
     };
     cava = {
-      cava_config = "/home/david/.config/cava/config";
+      cava_config = "/home/color/.config/cava/config";
       framerate = 90;
       bars = 14;
       method = "pulse";

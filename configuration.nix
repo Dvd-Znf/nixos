@@ -7,7 +7,7 @@
 
 {
 
-  imports = [ ./david.nix ];
+  imports = [ ./color.nix ];
 
   nix = {
     optimise.automatic = true;
@@ -63,7 +63,7 @@
     ];
   };
 
-  fileSystems."/home/david/homevol" = {
+  fileSystems."/home/color/homevol" = {
     device = "/dev/SillyVolGroup/homevol";
     fsType = "ext4";
   };
