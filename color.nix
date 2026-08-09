@@ -26,6 +26,7 @@
     ssh = "kitten ssh";
     c = "sudo nixos-rebuild switch --flake './#laptop'";
     cu = "sudo nix flake update";
+    cm = "git commit -am \"flake: update\"";
     ",," = "nix-shell -p ";
   };
 }
