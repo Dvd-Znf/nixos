@@ -13,6 +13,19 @@
         "Simulation"
       ];
     };
+    # This might be a Wofi specific issue, but term entries don't do the thing yknow :p
+    btop = {
+      name = "btop++";
+      genericName = "SystemMonitor";
+      exec = "kitty btop";
+      icon = "btop";
+      terminal = false;
+      categories = [
+        "System"
+        "Monitor"
+        "ConsoleOnly"
+      ];
+    };
   };
   xdg.configFile."niri/config.kdl".source = ./niri/config.kdl;
   xdg.portal = {
