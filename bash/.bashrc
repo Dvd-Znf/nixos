@@ -162,4 +162,8 @@ colors() {
 		echo; echo
 	done
 }
+unstbl() { 
+    curl -G -s --data-urlencode 'query=channel_update_time{channel="nixos-unstable"}' "https://prometheus.nixos.org/api/v1/query" | 
+    jq -r --arg now $(date +%s) '.data.result[0].value[1] | tonumber | ($now | tonumber) - . | . / 60 | floor | "\(./60/24 | floor)d \(./60%24 | floor)h \(. % 60)m ago"'
+}
 fastfetch

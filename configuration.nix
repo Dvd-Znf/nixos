@@ -265,6 +265,7 @@
     ]))
     swi-prolog
     sshfs
+    jq
   ];
 
   fonts.packages =
