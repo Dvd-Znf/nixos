@@ -214,8 +214,6 @@
     awww
     wl-clip-persist
     wl-clipboard
-    grim
-    slurp
     networkmanagerapplet
     kdePackages.partitionmanager
     kdePackages.filelight
