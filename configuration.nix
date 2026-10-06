@@ -202,6 +202,8 @@
     cu = "sudo nix flake update";
     cm = "git commit -am \"flake: update\"";
     ",," = "nix-shell -p ";
+    wttr = "curl https://wttr.in";
+    moon = "curl https://wttr.in/moon";
   };
 
   # List packages installed in system profile.
