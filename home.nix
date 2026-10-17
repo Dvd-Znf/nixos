@@ -1,5 +1,8 @@
 { pkgs, lib, ... }:
 {
+  systemd.user.sessionVariables = {
+    _JAVA_AWT_WM_NONREPARENTING = "1";
+  };
   xdg.desktopEntries = {
     minecraftuwu = {
       name = "Minecraft :3 (1.21.10)";
