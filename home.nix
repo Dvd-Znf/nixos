@@ -106,6 +106,7 @@
     television = {
       enable = true;
       settings.default_channel = "nix-search-tv";
+      enableBashIntegration = true;
     };
     fastfetch = {
       enable = true;
