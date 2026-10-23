@@ -401,6 +401,7 @@ binds {
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.
     Super+S hotkey-overlay-title="screenshit" { screenshot; }
+    Super+Shift+S hotkey-overlay-title="screenshit-screen" { screenshot-screen; }
 
     // Example volume keys mappings for PipeWire & WirePlumber.
     // The allow-when-locked=true property makes them work even when the session is locked.
