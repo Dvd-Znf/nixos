@@ -130,7 +130,6 @@
   hardware.bluetooth.enable = true;
   services.blueman.enable = true;
   services.pulseaudio.enable = true;
-  nixpkgs.config.pulseaudio = true;
   services.displayManager.ly = {
     enable = false;
     settings = {
