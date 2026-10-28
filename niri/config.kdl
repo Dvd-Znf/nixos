@@ -366,7 +366,9 @@ window-rule {
 recent-windows {
     binds {
         Mod+grave       { next-window; }
+        // Mod+MouseBack   { next-window; }
         Mod+Shift+grave { previous-window; }
+        // Mod+Shift+MouseBack   { previous-window; }
     }
 }
 
@@ -434,7 +436,9 @@ binds {
     // Open/close the Overview: a zoomed-out view of workspaces and windows.
     // You can also move the mouse into the top-left hot corner,
     // or do a four-finger swipe up on a touchpad.
-    Mod+Tab     repeat=false { toggle-overview; }
+    Mod+Tab           repeat=false { toggle-overview; }
+    Mod+MouseForward  repeat=false { toggle-overview; }
+    Mod+Shift+MouseForward  repeat=false { maximize-column; }
 
     Mod+Shift+C repeat=false { close-window; }
 
