@@ -78,6 +78,7 @@
       "image/jpeg" = "viewnior.desktop";
       "image/gif" = "viewnior.desktop";
       "image/webp" = "viewnior.desktop";
+      "image/svg+xml" = "viewnior.desktop";
       "application/pdf" = "firefox.desktop";
     };
   };
