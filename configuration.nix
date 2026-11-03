@@ -237,7 +237,14 @@
     libnotify
     nvtopPackages.nvidia
     nvtopPackages.intel
-    catppuccin-sddm
+    (catppuccin-sddm.override {
+      font = "Comic Mono";
+      fontSize = "12";
+      background = fetchurl {
+        url = "https://d.furaffinity.net/art/honeymoss/1750719435/1750719435.honeymoss_gay.png";
+        hash = "sha256-DRCJxKb5eMBvKeQ2L2KD8N6CHskaFrZT+Yzr7/a2df8=";
+      };
+    })
     swaynotificationcenter
     dnsmasq
     python3
