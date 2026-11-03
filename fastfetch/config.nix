@@ -19,7 +19,10 @@
     "cursor"
     "terminal"
     "terminalfont"
-    "cpu"
+    {
+      type = "cpu";
+      temp = true;
+    }
     "gpu"
     "memory"
     # "swap"
@@ -32,7 +35,10 @@
     "colors"
   ];
   logo = {
-    source = "/home/color/Pictures/Stolen/stickerbomb.jpg";
+    source = builtins.fetchurl {
+      url = "https://d.furaffinity.net/art/honeymoss/1750718989/1750718989.honeymoss_cozymoon.png";
+      sha256 = "sha256-Pj5zCEGAD2Cn9prZ6YvDcEJdR9w4dVR3YoxOgFBGc0s=";
+    };
     width = 40;
   };
   display = {
