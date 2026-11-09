@@ -199,7 +199,7 @@
     ssh = "kitten ssh";
     c = "sudo nixos-rebuild switch --flake './#laptop'";
     cu = "sudo nix flake update";
-    cm = "git commit -am \"flake: update\"";
+    cm = "git commit flake.lock -m \"flake: update\"";
     ",," = "nix-shell -p ";
     wttr = "curl https://wttr.in";
     moon = "curl https://wttr.in/moon";
