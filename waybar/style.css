@@ -85,7 +85,7 @@ button:hover {
 #workspaces button {
     color: @maroon;
     background: transparent;
-    padding: 4px 4px;
+    padding: 4px 10px;
     transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
 }
 
